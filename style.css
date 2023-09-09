@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar-one{
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+
+   
+}
+.logo{
+    width: 45%;
+    margin-left: 5%;
+    
+}
+.button{
+    position: relative;
+    bottom: 15%;
+    left: 40%;
+    background-color: grey;
+    height: 10vh;
+    width: 20%;
+    color: black;
+    font-weight: 600;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button:hover{
+    background-color: blue;
+    transform: scaleX(1.1);
+}
+@media(max-width:432px){
+    .button{
+        font-size: 12px;
+        
+    }
+}
+
+@media(max-width:540px){
+    .take-tour{
+        font-size: 12px;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        
+    }
+}
+.button-2{
+    width: 18%;
+    height: 8vh;
+    background-color: rgb(22,62,194);
+    transition: height 2s linear 1s;
+}
+.button-2:hover{
+    height: 70px;
+}
+.btnt{
+    height: 10vh;
+    width: 15%;
+    transition: height 2s linear 1s;
+}
+.btnt:hover{
+    height: 70px;
+}
+.button-2 a{
+    text-decoration: none;
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+.btnt a{
+    color: grey;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    gap: 20%;
+
+}
+@media(max-width: 782px){
+    .flex{
+        display: grid;
+        grid-template-columns: 100%; 
+    }
+    .flex img{
+        width: 100%;
+    }
+}
+.flex img{
+    width: 30%;
+
+}
+@media(max-width: 782px){
+    .flex img{
+        width: 100%; 
+    }
+    
+}
+
+@media(max-width: 782px){
+    .dara{
+        width: 100%;
+       margin-top: -120%;
+       margin-left: 35%; 
+    }
+    
+}
+.solidd{
+    position: absolute;
+    right: 250px;
+    top: 33px;
+    height: 8vh;
+    width: 5%;
+    background-color: aquamarine;
+    border-color: black;
+    color: grey;
+
+}
+@media(max-width: 1188px){
+    .solidd{
+    margin-left: 3000px;
+      
+    }
+    
+}
+/* .fa-light{
+    width: 50%;
+} */
+@media(max-width: 782px){
+    .input{
+        width: 100%;
+       margin-top: 140%;
+      
+    }
+    
+}
+@media(max-width: 782px){
+    .solidd{
+        /* width: 100%; */
+      
+       margin-left: 60%;
+      
+    }
+    
+}
+.solidd:hover{
+    background-color: blue;
+
+}
+.original-one{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(6th\ pic1.jpg);
+    margin-left: 2%;
+    /* height: 90vh; */
+}
+.orima{
+    display: flex;
+    /* grid-template-columns: auto; */
+    width: 100%;
+    
+    /* justify-content: space-between; */
+    
+}
+.mt-5{
+    margin-top: -50px;
+}
+@media(max-width: 1200px){
+    .ibkay{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+    .ori-two{
+        width: 100%;
+    }
+
+    
+}
+.but{
+    background-color: rgb(241,41,46);
+    height: 12vh;
+    width: 40%;
+    border-color: white;
+    transition: height 2s linear 1s;
+}
+.but:hover{
+    height: 70px;
+}
+.but a{
+    text-decoration: none;
+    color: white;
+}
+.newie{
+    display: flex;
+    overflow: hidden;
+    grid-template-columns: 100%;
+    width: 100%;
+}
+@media(max-width: 782px){
+    .newie{
+        width: 100%;
+        /* display: block; */
+      
+    }
+    
+}
+.mt a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+.read-more a{
+    text-decoration: none;
+    color: white;
+}
+.read-more{
+    height: 9vh;
+    width: 27%;
+    background-color: rgb(25,25,70);
+    transition: height 2s linear 1s;
+}
+.read-more:hover{
+    height: 70px;
+}
+.selection{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(11th\ pic1.jpg);
+}
+.flexible{
+    display: flex;
+    width: 100%;
+}
+.buttonee{
+    background-color: red;
+    height: 10vh;
+    width: 22%;
+    transition: height 2s linear 1s;
+}
+.buttonee:hover{
+    height: 70px;
+    background-color: burlywood;
+    
+}
+.buttonee a{
+    text-decoration: none;
+    color: white;
+}
+.butmer{
+    background-color: rgb(25,25,70);
+    height: 10vh;
+    width: 30%;
+    transition: height 2s linear 1s;
+}
+.butmer:hover{
+    height: 70px;
+}
+.butmer a{
+    text-decoration: none;
+    color: white; 
+    border: 19px;
+    border-color: white;
+}
+.mama{
+    width: 50%;
+}
+.new-noee{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(newone1.jpg);
+}
+.bara1{
+    height: 8vh;
+    width: 50%;
+    background-color: rgb(28,78,211);
+    border-color: white;
+    transition: height 2s linear 1s;
+}
+.bara1:hover{
+    height: 70px;
+    background-color: burlywood;
+}
+.bara1 a{
+    text-decoration: none;
+    color: white;
+}
+.bara2{
+    height: 8vh;
+    width: 35%;
+    background-color: rgba(248, 236, 236, 0.486);
+    border-color: white;
+    transition: height 2s linear 1s;
+}
+.bara2:hover{
+    height: 70px;
+}
+.bara2 a{
+    text-decoration: none;
+    color: white;
+}
+.raba a{
+    color: black;
+    text-decoration: none;
+}
+.erp{
+    display: flex;
+    width: 100%;
+}
+@media(max-width: 782px){
+    .erp{
+        display: none;
+        width: 100%;
+      
+    }
+    
+}
+.rarara img{
+    width: 20%;
+    height: 20vh;
+}
+.raba img{
+    width: 100%;
+    height: 20vh;
+    
+}
+.raba img:hover{
+    transition: 0.5s;
+    transform: translate3d(0,0,0);
+}
+.view-more-news{
+    height: 10vh;
+    width: 15%;
+    
+}
+.view-more-news a{
+    text-decoration: none;
+    color: rgb(25,25,70);
+    font-weight: 800;
+}
+.ramakid{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: rgb(244,244,244);
+}
+.mbape{
+    height: 7vh;
+    width: 15%;
+    transition: height 2s linear 1s;
+   
+}
+.mbape:hover{
+    background-color: rgb(25,25,70);
+    height: 50px;
+}
+.mbape1{
+    background-color: rgb(25,25,70);
+    height: 7vh;
+    width: 15%;
+    transition: height 2s linear 1s;
+}
+.mbape1:hover{
+    height: 50px;
+}
+.mbape a{
+    text-decoration: none;
+    color: rgb(25,25,70);
+    
+}
+.mbape a:hover{
+    color: white;
+}
+.mbape1 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.diver1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+@media(max-width: 782px){
+    .diver1{
+        display: block;
+       text-align: center;
+        width: 100%;
+      
+    }
+    
+}
+.diver1 a{
+    text-decoration: none;
+    color: black;
+}
+.figure{
+    height: 20vh;
+}
+@media(max-width: 760px){
+    .figure{
+        display: none;
+        
+      
+    }
+    
+}
